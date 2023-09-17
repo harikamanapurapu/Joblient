@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Joblient/static/css/main.fa8ff1b4.css",
+    "main.js": "/Joblient/static/js/main.f625b7b3.js",
+    "static/media/second.jpg": "/Joblient/static/media/second.a8314fd89667885d0318.jpg",
+    "static/media/third.jpg": "/Joblient/static/media/third.08bdaabb91090bf119d3.jpg",
+    "static/media/learning.jpg": "/Joblient/static/media/learning.eb300722ad32880105ec.jpg",
+    "static/media/first.png": "/Joblient/static/media/first.33aa447315f31ab69cee.png",
+    "static/media/last.jpeg": "/Joblient/static/media/last.b7a7ba30b03daca5af65.jpeg",
+    "index.html": "/Joblient/index.html",
+    "main.fa8ff1b4.css.map": "/Joblient/static/css/main.fa8ff1b4.css.map",
+    "main.f625b7b3.js.map": "/Joblient/static/js/main.f625b7b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa8ff1b4.css",
+    "static/js/main.f625b7b3.js"
+  ]
+}
