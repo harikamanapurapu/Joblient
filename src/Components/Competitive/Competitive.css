@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.competitive-main{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 30%;
+    height: 30vh;
+    background-color: white;
+    position: absolute;
+    top: 43vh;
+    left: 47%;
+    border: 1.5px solid rgb(255, 254, 254);
+}
+.competitive-header{
+    font-size: 25px ;
+    font-family:Roboto ;
+    font-weight: 600;
+    color:black ;
+
+}
+.competitive-p{
+    font-size: 15px ;
+    font-family:Roboto ;
+    font-weight: 500;
+    color:black ;
+    text-align: left;
+    margin-top: 10px;
+    
+
+}
+.comp-link{
+    font-size: 18px ;
+    font-family:Roboto ;
+    font-weight: 500;
+    color:skyblue;
+    text-align: center;
+
+
+}
+.comp-img{
+    width:200px ;
+    height: 90px;
+    margin-left: 65px;
+    margin-top: 10px;
+
+}
+.arrow{
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 600;
+    color: skyblue;
+
+}
+
+@media screen and (max-width:480px) {
+    .competitive-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        width: 98%;
+        height: 30vh;
+        background-color: white;
+        position: absolute;
+        top: 166vh;
+        left: 1%;
+        border: 1.5px solid rgb(255, 254, 254);
+    }
+    .competitive-header{
+        font-size: 25px ;
+        font-family:Roboto ;
+        font-weight: 600;
+        color:black ;
+    
+    }
+    .competitive-p{
+        font-size: 15px ;
+        font-family:Roboto ;
+        font-weight: 500;
+        color:black ;
+        text-align: left;
+        margin-top: 10px;
+        
+    
+    }
+    .comp-link{
+        font-size: 18px ;
+        font-family:Roboto ;
+        font-weight: 500;
+        color:skyblue;
+        text-align: center;
+    
+    
+    }
+    .comp-img{
+        width:250px ;
+        height: 100px;
+        margin-left: 20px;
+        margin-top: 10px;
+    
+    }
+    .arrow{
+        font-size: 20px;
+        font-family: Roboto;
+        font-weight: 600;
+        color: skyblue;
+    
+    }
+
+    
+}

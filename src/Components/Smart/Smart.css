@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-smart{
+    position: absolute;
+    top:43vh;
+    width: 45%;
+    height: 30vh;
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    left: 1%;
+    background-color: white;
+    
+}
+.smart-image{
+    width:250px ;
+    height:200px ;
+}
+.smart{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.smart-header{
+    font-size: 25px ;
+    font-family:Roboto ;
+    font-weight: 600;
+    color:black ;
+}
+.smart-p{
+    font-size: 0.8em ;
+    font-family:Roboto ;
+    font-weight: 500;
+    color:black ;
+    width: 400px;
+}
+.smart-btn{
+    width: 150px ;
+    height:35px ;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 120px;
+}
+.smart-arrow{
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 600;
+    color: skyblue;
+    margin-right: 3px;
+}
+@media screen and (max-width:480px) {
+    .main-smart{
+        position: absolute;
+        top:108vh;
+        width: 98%;
+        height: 57vh;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+        left: 1%;
+        background-color: white;
+        
+    }
+    .smart-image{
+        position: absolute;
+        top: 60px;
+        width:350px ;
+        height:300px ;
+        margin-left: 20px;
+    }
+    .smart{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+    .smart-header{
+        position: absolute;
+        top: 20px;
+        font-size: 25px ;
+        font-family:Roboto ;
+        font-weight: 600;
+        color:black ;
+    }
+    .smart-p{
+        font-size: 0.8em ;
+        font-family:Roboto ;
+        font-weight: 500;
+        color:black ;
+        width: 420px;
+        position: relative;
+        top: 350px;
+    }
+    .smart-btn{
+        position: absolute;
+        top:490px ;
+        width: 150px ;
+        height:35px ;
+        border: 1px solid black;
+        border-radius: 20px;
+        background-color: white;
+        margin-left: 100px;
+        margin-top: 18px;
+    }
+
+    
+}

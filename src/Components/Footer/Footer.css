@@ -1,0 +1,113 @@
+
+
+.footer-main{
+    width: 98%;
+    height: 8vh;
+    display: flex;
+    border-top:1.5px solid rgb(175, 175, 175) ;
+    border-bottom: 1.5px solid rgb(175, 175, 175)  ;
+    background-color: white;
+    position: absolute;
+    top: 110vh;
+    left: 1%;
+    margin-bottom: 20px;
+
+}
+.footer-cards{
+    display: flex;
+    justify-content: space-between;
+    width:25% ;
+    border-right:1.5px solid grey ;
+    height: 58px;
+
+
+}
+.footer-cons{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+
+}
+.number{
+
+    font-size: 25px ;
+    font-family:Roboto ;
+    font-weight: 600;
+    color:black ;
+
+}
+.text{
+    font-size: 0.8em ;
+    font-family:Roboto ;
+    font-weight: 500;
+    color:black ;
+
+}
+.dots{
+    font-size: 25px ;
+    font-family:Roboto ;
+    font-weight: 600;
+    color:black ;
+    margin-right: 10px;
+
+}
+
+@media screen and (max-width:480px) {
+    .footer-main{
+        width: 98%;
+        height: 8vh;
+        display: flex;
+        border-top:1.5px solid rgb(175, 175, 175) ;
+        border-bottom: 1.5px solid rgb(175, 175, 175)  ;
+        background-color: white;
+        position: absolute;
+        top: 278vh;
+        left: 1%;
+        margin-bottom: 20px;
+    
+    }
+    .footer-cards{
+        display: flex;
+        justify-content: space-between;
+        width:25% ;
+        border-right:1.5px solid grey ;
+        height: 75px;
+    
+    
+    }
+    .footer-cons{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 5px;
+        margin-left: 10px;
+    
+    }
+    .number{
+    
+        font-size: 18px ;
+        font-family:Roboto ;
+        font-weight: 600;
+        color:black ;
+    
+    }
+    .text{
+        font-size: 0.8em ;
+        font-family:Roboto ;
+        font-weight: 500;
+        color:black ;
+    
+    }
+    .dots{
+        font-size: 25px ;
+        font-family:Roboto ;
+        font-weight: 600;
+        color:black ;
+        margin-right: 10px;
+    
+    }
+
+    
+}

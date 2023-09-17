@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.interview-main{
+    position: absolute;
+    top: 43vh;
+    left: 78%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    width: 21%;
+    height: 30vh;
+    background-color: white;
+    border: 1.5px solid rgb(255, 254, 254);
+
+}
+.interview-header{
+    font-size: 25px ;
+    font-family:Roboto ;
+    font-weight: 600;
+    color:black ;
+    
+
+}
+.interview-p{
+    font-size: 13px ;
+    font-family:Roboto ;
+    font-weight: 500;
+    color:black ;
+    text-align: left;
+
+}
+.interview-link{
+    font-size: 15px ;
+    font-family:Roboto ;
+    font-weight: 500;
+    color:skyblue;
+    text-align: center;
+    margin-left: 60px;
+
+}
+.int-arrow{
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 600;
+    color: skyblue;
+
+}
+.int{
+    width:200px ;
+    height: 80px;
+
+}
+
+@media screen  and (max-width:480px){
+    .interview-main{
+        position: absolute;
+        top: 197vh;
+        left: 1%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 10px;
+        width: 98%;
+        height: 30vh;
+        background-color: white;
+        border: 1.5px solid rgb(255, 254, 254);
+    
+    }
+    .interview-header{
+        font-size: 25px ;
+        font-family:Roboto ;
+        font-weight: 600;
+        color:black ;
+        margin-left: 80px;
+        
+    
+    }
+    .interview-p{
+        font-size: 13px ;
+        font-family:Roboto ;
+        font-weight: 500;
+        color:black ;
+        text-align: left;
+        margin-left: 80px;
+    
+    }
+    .interview-link{
+        font-size: 15px ;
+        font-family:Roboto ;
+        font-weight: 500;
+        color:skyblue;
+        text-align: center;
+        margin-left: 50px;
+    
+    }
+    .int-arrow{
+        font-size: 20px;
+        font-family: Roboto;
+        font-weight: 600;
+        color: skyblue;
+    
+    }
+    .int{
+        width:300px ;
+        height: 150px;
+        margin-left: 50px;
+    
+    }
+
+    
+}
